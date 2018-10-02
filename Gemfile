@@ -10,7 +10,8 @@ gem 'rails', '~> 5.2.1'
 gem 'devise'
 
 gem 'twitter-bootstrap-rails'
-
+gem 'devise-bootstrap-views'
+# rails require jquery rails
 gem 'jquery-rails'
 
 # # Use sqlite3 as the database for Active Record
