@@ -1,1 +1,7 @@
 <h1>Welcome to the finance tracker app</h1>
+
+<% if user_signed_in? %>
+  <li><%= link_to "log out", destroy_user_session_path, method: :delete %></li>
+<% else %>
+	<li>LOL</li>
+<% end %>
