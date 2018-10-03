@@ -10,10 +10,12 @@ gem 'rails', '~> 5.2.1'
 gem 'devise'
 
 gem 'twitter-bootstrap-rails'
+# rails5 require jquery rails
 gem 'devise-bootstrap-views'
-# rails require jquery rails
 gem 'jquery-rails'
 
+# stock quote
+gem 'stock_quote'
 # # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # Use Puma as the app server
